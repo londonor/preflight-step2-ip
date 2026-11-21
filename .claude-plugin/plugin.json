@@ -1,0 +1,11 @@
+{
+  "name": "preflight-gate-2-ip",
+  "displayName": "Biotech Pre-Flight Checklist — Gate 2 IP screen",
+  "version": "1.0.0",
+  "description": "The IP search of Step 2 (the fatal-flaw screen) of the Biotech Venture Qualification Framework: a preliminary freedom-to-operate screen that finds whether an in-force patent claim reads on the essential elements of a biotech or medtech invention, from opened patent pages, and returns clear / wall / unknown with a kit to take to patent counsel. Screening only, not legal advice.",
+  "author": { "name": "Ricardo Londono" },
+  "homepage": "https://github.com/londonor/preflight-step2-ip",
+  "repository": "https://github.com/londonor/preflight-step2-ip",
+  "license": "MIT",
+  "keywords": ["biotech", "medtech", "startup", "freedom-to-operate", "patents", "venture-qualification"]
+}
