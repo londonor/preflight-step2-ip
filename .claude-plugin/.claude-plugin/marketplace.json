@@ -1,0 +1,12 @@
+{
+  "name": "preflight-step2",
+  "description": "Step 2 of the Pre-Flight Checklist for first-time biotech and medtech founders: the fatal-flaw screen, one search at a time",
+  "owner": { "name": "Ricardo Londono" },
+  "plugins": [
+    {
+      "name": "preflight-gate-2-ip",
+      "source": "./",
+      "description": "Gate 2 — Is there a blocking patent? A preliminary freedom-to-operate screen with a kit for patent counsel."
+    }
+  ]
+}
