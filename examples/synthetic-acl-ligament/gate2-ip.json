@@ -1,0 +1,1309 @@
+{
+ "idea_id": "synthetic-acl-ligament",
+ "created": "2026-11-21",
+ "mode": "autonomous",
+ "input_text": "synthetic ligament for ACL surgery",
+ "origin": "founder request, 21 Nov 2026 — first run of the gate-2-ip-screen skill",
+ "jurisdictions": [
+  "US"
+ ],
+ "gate1_record": "",
+ "fail_conditions": {
+  "default": {
+   "header": "Is there a blocking patent?",
+   "condition": "Fail if an in-force claim reads on elements 1–3, has seven or more years of estimated term left in the US, and there is no evidence of a licensing path."
+  },
+  "venture_specific": {
+   "header": "Is the whole category owned?",
+   "condition": "Fail if an in-force US claim covers a synthetic intra-articular ligament for ACL reconstruction with no limitation on material or structure, held by a company that sells a competing synthetic ligament, with estimated expiry past 2033."
+  },
+  "results": {
+   "default": "cleared",
+   "venture_specific": "cleared"
+  },
+  "evidence": {
+   "default": "No opened claim reads on elements 1–3 alone; every claim that could read requires an unstated material, structure, or degradation profile. The only family with 7+ years (US 11,357,613 and siblings, 'into 2040') requires a two-layer spacer textile with an internal matrix.",
+   "venture_specific": "No genus claim found in force: LARS US 7,494,506 'Expired – Lifetime, expires 2026-02-20'; US 6,599,319 'Expired – Lifetime'; broad pre-2000 families not opened."
+  }
+ },
+ "invention": {
+  "statement": {
+   "text": "A man-made ligament, implanted to replace the torn anterior cruciate ligament, fixed to the femur and tibia.",
+   "provenance": "agent-resolved"
+  },
+  "elements": [
+   {
+    "n": 1,
+    "element": "Synthetic (man-made, non-autograft, non-allograft) ligament body",
+    "essential": true,
+    "provenance": "founder-stated"
+   },
+   {
+    "n": 2,
+    "element": "Replaces or reconstructs the ACL, intra-articular femur to tibia",
+    "essential": true,
+    "provenance": "founder-stated"
+   },
+   {
+    "n": 3,
+    "element": "Fixed to bone at both ends",
+    "essential": true,
+    "provenance": "agent-resolved"
+   },
+   {
+    "n": 4,
+    "element": "Material class",
+    "essential": null,
+    "provenance": "unstated"
+   },
+   {
+    "n": 5,
+    "element": "Structure (braided/woven/knitted/spacer textile; sections; porosity)",
+    "essential": null,
+    "provenance": "unstated"
+   },
+   {
+    "n": 6,
+    "element": "Surface treatment or coating",
+    "essential": null,
+    "provenance": "unstated"
+   },
+   {
+    "n": 7,
+    "element": "Replacement alone vs augmentation of a graft",
+    "essential": null,
+    "provenance": "unstated"
+   },
+   {
+    "n": 8,
+    "element": "Permanent vs resorbable",
+    "essential": null,
+    "provenance": "unstated"
+   },
+   {
+    "n": 9,
+    "element": "Fixation method",
+    "essential": false,
+    "provenance": "unstated"
+   }
+  ]
+ },
+ "search_plan": {
+  "mechanism": [
+   "prosthetic ligament intra-articular portion bone tunnel",
+   "artificial ligament anterior cruciate braided",
+   "ligament augmentation device"
+  ],
+  "material": [
+   "polyethylene terephthalate artificial ligament",
+   "UHMWPE ligament prosthesis",
+   "silk fibroin ACL scaffold",
+   "resorbable synthetic ligament scaffold"
+  ],
+  "application": [
+   "anterior cruciate ligament prosthesis",
+   "ACL reconstruction synthetic graft"
+  ],
+  "use": [
+   "method of reconstructing anterior cruciate ligament synthetic ligament"
+  ],
+  "owners": [
+   "LARS / Corin",
+   "Xiros / Neoligaments",
+   "Orthonika",
+   "Biorez / Soft Tissue Regeneration / CONMED",
+   "Biomet",
+   "Georgia Tech"
+  ]
+ },
+ "candidates": [
+  {
+   "number": "US4187558",
+   "title": "Prosthetic ligament",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (granted 1980)",
+   "why": "genus",
+   "opened": false
+  },
+  {
+   "number": "US4605414",
+   "title": "Reconstruction of a cruciate ligament",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1986)",
+   "why": "method",
+   "opened": false
+  },
+  {
+   "number": "US4917700",
+   "title": "Prosthetic ligament",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1990)",
+   "why": "genus",
+   "opened": false
+  },
+  {
+   "number": "US4828562",
+   "title": "ACL prosthesis",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1989)",
+   "why": "elements 1–2",
+   "opened": false
+  },
+  {
+   "number": "US5004474",
+   "title": "Prosthetic ACL design",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1991)",
+   "why": "elements 1–2",
+   "opened": false
+  },
+  {
+   "number": "US5078745",
+   "title": "Synthetic ligament for the knee",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1992)",
+   "why": "genus",
+   "opened": false
+  },
+  {
+   "number": "US5116372",
+   "title": "Prosthetic ligament, resin-coated fibers",
+   "owner": "Laboureau (LARS)",
+   "priority": "",
+   "status": "not shown (1992)",
+   "why": "element 6",
+   "opened": false
+  },
+  {
+   "number": "US5575819",
+   "title": "Artificial ligaments",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (1996)",
+   "why": "genus",
+   "opened": false
+  },
+  {
+   "number": "US6599319",
+   "title": "Prosthetic ligament (LCP cord)",
+   "owner": "Cortland Cable",
+   "priority": "2001-12-14",
+   "status": "Expired – Lifetime",
+   "why": "element 4",
+   "opened": true
+  },
+  {
+   "number": "US7494506",
+   "title": "Fixing traction threads to a prosthetic ligament",
+   "owner": "LARS → Movmedix",
+   "priority": "2004-01-23",
+   "status": "Expired – Lifetime, expires 2026-02-20",
+   "why": "elements 5, 9",
+   "opened": true
+  },
+  {
+   "number": "US7700147",
+   "title": "Biomimetic polyester prostheses",
+   "owner": "LARS",
+   "priority": "",
+   "status": "not shown (2010)",
+   "why": "elements 4–5",
+   "opened": false
+  },
+  {
+   "number": "US20120253461",
+   "title": "Prosthetic ligament, bundled filaments",
+   "owner": "Laboureau",
+   "priority": "2009-07-31",
+   "status": "application",
+   "why": "element 5",
+   "opened": false
+  },
+  {
+   "number": "US7905918",
+   "title": "Elastic metallic replacement ligament",
+   "owner": "",
+   "priority": "",
+   "status": "not shown (2011)",
+   "why": "element 4 (metal)",
+   "opened": false
+  },
+  {
+   "number": "US8486143",
+   "title": "Mechanically competent scaffold",
+   "owner": "Soft Tissue Regeneration / Biorez (CONMED)",
+   "priority": "2009-05-22",
+   "status": "Active, 2030-09-09",
+   "why": "elements 4, 5, 8",
+   "opened": true
+  },
+  {
+   "number": "US8758437",
+   "title": "Mechanically competent scaffold",
+   "owner": "Biorez (CONMED)",
+   "priority": "2009-05-22",
+   "status": "Active, 2029-12-23",
+   "why": "elements 4, 5, 8",
+   "opened": true
+  },
+  {
+   "number": "US9757132",
+   "title": "Scaffold for rotator cuff",
+   "owner": "Biorez",
+   "priority": "",
+   "status": "not shown",
+   "why": "sibling; shoulder",
+   "opened": false
+  },
+  {
+   "number": "US11058532; US11065102; US11096776; US11116622",
+   "title": "Composite scaffold (BioBrace)",
+   "owner": "Biorez → CONMED",
+   "priority": "",
+   "status": "'into 2040' (owner statement)",
+   "why": "elements 5, 6, 8",
+   "opened": false
+  },
+  {
+   "number": "US11357613",
+   "title": "Composite scaffold",
+   "owner": "Biorez → CONMED",
+   "priority": "",
+   "status": "not shown (pub. 2022-06-14)",
+   "why": "elements 5, 6",
+   "opened": true
+  },
+  {
+   "number": "US11622847; US11701217; US11712332; US11986384",
+   "title": "Composite scaffold",
+   "owner": "Biorez → CONMED",
+   "priority": "",
+   "status": "not shown",
+   "why": "elements 5, 6",
+   "opened": false
+  },
+  {
+   "number": "US9180000",
+   "title": "Prosthetic ACL",
+   "owner": "Georgia Tech (TTO listing)",
+   "priority": "",
+   "status": "not shown",
+   "why": "elements 1–3, 9",
+   "opened": false
+  },
+  {
+   "number": "US9681940",
+   "title": "Ligament system for knee joint",
+   "owner": "Biomet Sports Medicine",
+   "priority": "chain to 2006-09-29",
+   "status": "not shown",
+   "why": "elements 5, 9",
+   "opened": true
+  },
+  {
+   "number": "US10517714",
+   "title": "Ligament system for knee joint",
+   "owner": "Biomet Sports Medicine",
+   "priority": "",
+   "status": "not shown",
+   "why": "sibling",
+   "opened": false
+  },
+  {
+   "number": "US11376115",
+   "title": "Prosthetic ligament system for knee joint",
+   "owner": "Biomet Sports Medicine",
+   "priority": "chain to 2006-09-29",
+   "status": "not shown",
+   "why": "elements 4, 5",
+   "opened": true
+  },
+  {
+   "number": "US10265158; US11344403",
+   "title": "Ligament assembly",
+   "owner": "Biomet UK Healthcare",
+   "priority": "2013-08-12 (GB); PCT 2014-07-31",
+   "status": "Active (claims behind login)",
+   "why": "elements 1–3",
+   "opened": "partial"
+  },
+  {
+   "number": "US10786232 (+5 siblings)",
+   "title": "Methods and procedures for ligament repair (BEAR)",
+   "owner": "Boston Children's Hospital",
+   "priority": "2006-01-25",
+   "status": "Active, 2027-01-25",
+   "why": "element 7",
+   "opened": true
+  },
+  {
+   "number": "US11547550",
+   "title": "Patellar tendon graft with suture tape",
+   "owner": "individual",
+   "priority": "2018-11-06",
+   "status": "Active, 2041-05-07",
+   "why": "element 7",
+   "opened": true
+  },
+  {
+   "number": "US11660374",
+   "title": "Braided silk scaffold",
+   "owner": "",
+   "priority": "",
+   "status": "not shown",
+   "why": "element 4 (silk)",
+   "opened": false
+  },
+  {
+   "number": "US11311649",
+   "title": "Silk/PET mix-woven scaffold",
+   "owner": "",
+   "priority": "",
+   "status": "not shown",
+   "why": "elements 4–5",
+   "opened": false
+  },
+  {
+   "number": "US11696972",
+   "title": "Silk fibroin hybrid structure",
+   "owner": "",
+   "priority": "",
+   "status": "not shown",
+   "why": "element 4",
+   "opened": false
+  },
+  {
+   "number": "US10492804",
+   "title": "Reconstruction of anterior cruciate ligaments",
+   "owner": "",
+   "priority": "",
+   "status": "not shown",
+   "why": "element 2",
+   "opened": false
+  },
+  {
+   "number": "US8500809",
+   "title": "Implant and method for repair of the ACL",
+   "owner": "",
+   "priority": "",
+   "status": "not shown",
+   "why": "element 7",
+   "opened": false
+  }
+ ],
+ "patents": [
+  {
+   "number": "US8486143B2",
+   "title": "Mechanically competent scaffold for ligament and tendon regeneration",
+   "owner_current": "Biorez Inc (page); CONMED since Aug 2022",
+   "owner_original": "Soft Tissue Regeneration Inc",
+   "priority": "2009-05-22",
+   "filed": "2009-12-30",
+   "granted": "2013-07-16",
+   "status": "in force",
+   "expiry_estimate": "2030-09-09 (adjusted; database estimate)",
+   "claims_total": 15,
+   "independent_claims": [
+    1,
+    5,
+    13,
+    14
+   ],
+   "family_in_jurisdictions": [
+    "US20100298937A1",
+    "US8758437B2"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "polymeric fibers degrading at between nine and twelve months",
+       "in_invention": "unclear",
+       "why": "element 8 unstated"
+      },
+      {
+       "text": "polymeric fibers not degrading in less than one year",
+       "in_invention": "unclear",
+       "why": "element 4 unstated"
+      },
+      {
+       "text": "braided into a three-dimensional braided scaffold; two end sections; a middle section",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "middle braid more porous than end sections; connective-tissue ingrowth",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "end sections attachable to bone; porosity under 50%; bony ingrowth",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "peak load 500 to 3200 N",
+       "in_invention": "unclear",
+       "why": "mechanical spec unstated"
+      },
+      {
+       "text": "provides articular tissue function as tissue integrates",
+       "in_invention": "unclear",
+       "why": "element 8 unstated"
+      }
+     ]
+    },
+    {
+     "claim": 5,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "same two-fiber braided structure; middle degrades faster or is more porous; porosity 50–70%; pores 177–250 μm",
+       "in_invention": "unclear",
+       "why": "elements 4, 5, 8 unstated"
+      }
+     ]
+    },
+    {
+     "claim": 13,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "method of implanting the claim-1 device",
+       "in_invention": "unclear",
+       "why": "follows claim 1"
+      }
+     ]
+    },
+    {
+     "claim": 14,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "kit containing the claim-1 device",
+       "in_invention": "unclear",
+       "why": "follows claim 1"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "polymeric fibers degrading at 9–12 months (element 8)",
+    "essential": null,
+    "note": "a permanent ligament is absent this element"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required at this term (under 7 years); no owner statements found",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US8486143"
+  },
+  {
+   "number": "US8758437B2",
+   "title": "Mechanically competent scaffold for ligament and tendon regeneration",
+   "owner_current": "Biorez Inc (page); CONMED since Aug 2022",
+   "owner_original": "Soft Tissue Regeneration Inc",
+   "priority": "2009-05-22",
+   "filed": "",
+   "granted": "2014-06-24",
+   "status": "in force",
+   "expiry_estimate": "2029-12-23 (anticipated; database estimate)",
+   "claims_total": 15,
+   "independent_claims": [
+    1,
+    14
+   ],
+   "family_in_jurisdictions": [
+    "US8486143B2"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "degrading (9–12 mo) and non-degrading (>1 yr) fibers",
+       "in_invention": "unclear",
+       "why": "elements 4, 8 unstated"
+      },
+      {
+       "text": "bundles braided into 3D scaffold; end sections; middle section",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "middle degrades faster or is more porous",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "peak load 500–3200 N; stiffness 200–700 N/mm",
+       "in_invention": "unclear",
+       "why": "unstated"
+      },
+      {
+       "text": "10–60 fibers per bundle; 16–64 bundles per braid",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "middle porosity 50–70%; pores 177–250 μm",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      }
+     ]
+    },
+    {
+     "claim": 14,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "degrading fiber bundles braided; more porous middle; same strength/stiffness; no non-degrading fiber",
+       "in_invention": "unclear",
+       "why": "elements 5, 8 unstated"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "degrading fibers (claim 1 and 14); more porous middle section",
+    "essential": null,
+    "note": "a permanent ligament without a porosity gradient is absent an element of both independent claims"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required at this term",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US8758437"
+  },
+  {
+   "number": "US11357613B2",
+   "title": "Composite scaffold for the repair, reconstruction, and regeneration of soft tissues",
+   "owner_current": "Biorez Inc (page); CONMED since Aug 2022",
+   "owner_original": "Biorez Inc",
+   "priority": "",
+   "filed": "",
+   "granted": "2022-06-14 (publication date on page)",
+   "status": "unknown",
+   "expiry_estimate": "not shown; owner release says family protects 'into 2040'",
+   "claims_total": 0,
+   "independent_claims": [
+    1
+   ],
+   "family_in_jurisdictions": [
+    "US11058532",
+    "US11065102",
+    "US11096776",
+    "US11116622",
+    "US11622847",
+    "US11701217",
+    "US11712332",
+    "US11986384"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "support structure: first and second outer layers separated by an interior space; spacer elements connecting them (summary page's words)",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "microporous matrix within the interior space; interconnected pores opening exteriorly",
+       "in_invention": "unclear",
+       "why": "elements 5, 6 unstated"
+      },
+      {
+       "text": "pores oriented relative to the support structure's dimensions",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "two-layer spacer textile with internal matrix (element 5)",
+    "essential": null,
+    "note": "a braided or woven cord is absent the first element; claim read from a summary page, verify on the patent"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "CONMED sells BioBrace (K203267); no licensing, exclusivity, or enforcement statements in the Oct 2021 release or the Aug 2022 acquisition release",
+    "url": "https://www.prweb.com/releases/biorez_awarded_four_new_patents_related_to_its_proprietary_biobrace_technology/prweb18237592.htm"
+   },
+   "url": "https://mtec-sc.org/patents/US-11357613-B2"
+  },
+  {
+   "number": "US9681940B2",
+   "title": "Ligament system for knee joint",
+   "owner_current": "Biomet Sports Medicine, LLC",
+   "owner_original": "",
+   "priority": "chain to 2006-09-29 (11/541,506); divisional of 12/788,978 (2010-05-27)",
+   "filed": "",
+   "granted": "",
+   "status": "unknown",
+   "expiry_estimate": "not shown; term from the 2006 chain — counsel to verify",
+   "claims_total": 0,
+   "independent_claims": [
+    1
+   ],
+   "family_in_jurisdictions": [
+    "US10517714",
+    "US11376115"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "first fastener threadably attachable to the first bone",
+       "in_invention": "unclear",
+       "why": "element 9 unstated"
+      },
+      {
+       "text": "second fastener threadably attachable to the second bone",
+       "in_invention": "unclear",
+       "why": "element 9 unstated"
+      },
+      {
+       "text": "flexible, integrated one-piece prosthetic ligament member directly coupled to both fasteners",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "outer wall defining a hollow longitudinal passage; each end threaded through to form an adjustable loop",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "second fastener: threaded base + separate rotatable attachment portion for twisting",
+       "in_invention": "unclear",
+       "why": "element 9 unstated"
+      },
+      {
+       "text": "biasing member between base and attachment portion maintaining tension",
+       "in_invention": "unclear",
+       "why": "element 9 unstated"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "two-part spring-biased fastener (element 9, optional)",
+    "essential": false,
+    "note": "any other fixation is absent this element"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not assessed: term and status unknown",
+    "url": ""
+   },
+   "url": "https://patents.justia.com/patent/9681940"
+  },
+  {
+   "number": "US11376115B2",
+   "title": "Prosthetic ligament system for knee joint",
+   "owner_current": "Biomet Sports Medicine, LLC",
+   "owner_original": "",
+   "priority": "chain to 2006-09-29",
+   "filed": "",
+   "granted": "",
+   "status": "unknown",
+   "expiry_estimate": "not shown; counsel to verify",
+   "claims_total": 0,
+   "independent_claims": [
+    1,
+    8,
+    16
+   ],
+   "family_in_jurisdictions": [
+    "US9681940",
+    "US10517714"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "braided hollow core suture with first and second free ends",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "first free end through a longitudinal passage forming a first adjustable loop",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "first fiber and second fiber braided together",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      },
+      {
+       "text": "first fiber formed with a polyethylene material",
+       "in_invention": "unclear",
+       "why": "element 4 unstated"
+      },
+      {
+       "text": "second fiber of larger diameter formed with a polyester material",
+       "in_invention": "unclear",
+       "why": "element 4 unstated"
+      }
+     ]
+    },
+    {
+     "claim": 8,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "two adjustable loops through four apertures; larger fiber protruding from the braid wall",
+       "in_invention": "unclear",
+       "why": "element 5 unstated"
+      }
+     ]
+    },
+    {
+     "claim": 16,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "product-by-process braid of many first fibers and at least one larger second fiber; polyethylene and polyester",
+       "in_invention": "unclear",
+       "why": "elements 4, 5 unstated"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "two-fiber hollow braid with self-threaded loop (elements 4, 5)",
+    "essential": null,
+    "note": "a single-material ligament or one without a self-threaded loop is absent an element of each independent claim"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not assessed",
+    "url": ""
+   },
+   "url": "https://patents.justia.com/patent/11376115"
+  },
+  {
+   "number": "US10265158B2 / US11344403B2",
+   "title": "Ligament assembly",
+   "owner_current": "Biomet UK Healthcare",
+   "owner_original": "",
+   "priority": "GB 1314408.4, 2013-08-12; PCT/GB2014/052348, 2014-07-31",
+   "filed": "",
+   "granted": "2019-04-23 (active publication date); 2022",
+   "status": "in force",
+   "expiry_estimate": "not shown; 20 years from the 2014 PCT would run to 2034 (computed, not read)",
+   "claims_total": 0,
+   "independent_claims": [],
+   "family_in_jurisdictions": [
+    "EP3033041B1 (per search result)"
+   ],
+   "claim_maps": [],
+   "result": "unclear",
+   "design_around": {
+    "element": "",
+    "essential": null,
+    "note": "claims not readable: behind a login; office PDF had no machine-readable text"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not assessed: claims unread",
+    "url": ""
+   },
+   "url": "https://eureka.patsnap.com/patent-US10265158B2"
+  },
+  {
+   "number": "US10786232B2",
+   "title": "Methods and procedures for ligament repair",
+   "owner_current": "Boston Children's Hospital",
+   "owner_original": "Boston Children's Hospital",
+   "priority": "2006-01-25",
+   "filed": "2012-05-01",
+   "granted": "2020-09-29",
+   "status": "in force",
+   "expiry_estimate": "2027-01-25 (anticipated; database estimate)",
+   "claims_total": 7,
+   "independent_claims": [
+    1
+   ],
+   "family_in_jurisdictions": [
+    "US20120283831A1",
+    "US10786238",
+    "US10786239",
+    "US11076845",
+    "US11076846",
+    "US12661217",
+    "US12672952"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "does not read",
+     "elements": [
+      {
+       "text": "an anchor capable of a stable attachment to a first bone",
+       "in_invention": "present",
+       "why": "element 3"
+      },
+      {
+       "text": "a suture whose second end is attachable to a ruptured end of a ligament connected to a second bone",
+       "in_invention": "absent",
+       "why": "element 2: the ligament is replaced, not repaired"
+      },
+      {
+       "text": "a scaffold consisting essentially of a porous sponge scaffold threaded onto the suture",
+       "in_invention": "absent",
+       "why": "no sponge scaffold"
+      },
+      {
+       "text": "the anchor attached only indirectly to the scaffold",
+       "in_invention": "absent",
+       "why": "follows"
+      }
+     ]
+    }
+   ],
+   "result": "does not read",
+   "design_around": {
+    "element": "",
+    "essential": null,
+    "note": ""
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US10786232"
+  },
+  {
+   "number": "US11547550B2",
+   "title": "Patellar tendon graft and ACL reconstruction method using suture tape augmentation",
+   "owner_current": "individual",
+   "owner_original": "individual",
+   "priority": "2018-11-06",
+   "filed": "2019-11-06",
+   "granted": "2023-01-10",
+   "status": "in force",
+   "expiry_estimate": "2041-05-07 (adjusted; database estimate)",
+   "claims_total": 3,
+   "independent_claims": [
+    1
+   ],
+   "family_in_jurisdictions": [
+    "US20200315771A1",
+    "WO2020097259A1"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "does not read",
+     "elements": [
+      {
+       "text": "a patellar tendon graft with femoral and tibial bone plugs shaped into cylinders",
+       "in_invention": "absent",
+       "why": "element 1: synthetic, not autograft"
+      },
+      {
+       "text": "medial-to-lateral drill holes in each bone plug",
+       "in_invention": "absent",
+       "why": "no bone plugs"
+      },
+      {
+       "text": "braided suture passed round and through the tendinous portion",
+       "in_invention": "absent",
+       "why": "no tendon"
+      },
+      {
+       "text": "flat-braided suture through the plugs in a crisscross; bone-to-bone fixation suture forming an interlocking loop",
+       "in_invention": "absent",
+       "why": "no bone plugs"
+      }
+     ]
+    }
+   ],
+   "result": "does not read",
+   "design_around": {
+    "element": "",
+    "essential": null,
+    "note": ""
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US11547550"
+  },
+  {
+   "number": "US7494506B2",
+   "title": "Method for fixing traction threads to ends of a prosthetic ligament",
+   "owner_current": "Movmedix (page)",
+   "owner_original": "LARS – Laboratoire d'Application et de Recherche Scientifique",
+   "priority": "2004-01-23 (FR)",
+   "filed": "2005-01-21",
+   "granted": "2009-02-24",
+   "status": "expired",
+   "expiry_estimate": "2026-02-20 (page: 'Expired – Lifetime')",
+   "claims_total": 7,
+   "independent_claims": [
+    1
+   ],
+   "family_in_jurisdictions": [
+    "EP1715813B1",
+    "CN100542502C",
+    "CA2553623C",
+    "FR2865380B1",
+    "WO2005079707A1"
+   ],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "process: cylindrical ligament with intra-articular middle and intra-osseous ends; winding/folding a web of synthetic polymer fibres; traction thread at each end; ferrule by radial ligature",
+       "in_invention": "unclear",
+       "why": "elements 5, 9 unstated; moot — expired"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "",
+    "essential": null,
+    "note": "moot: expired; prior art for counsel"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required: expired",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US7494506"
+  },
+  {
+   "number": "US6599319B2",
+   "title": "Prosthetic ligament",
+   "owner_current": "Cortland Cable Co Inc",
+   "owner_original": "",
+   "priority": "2001-12-14",
+   "filed": "",
+   "granted": "",
+   "status": "expired",
+   "expiry_estimate": "page: 'Expired – Lifetime' (no date shown)",
+   "claims_total": 10,
+   "independent_claims": [
+    1,
+    5,
+    8
+   ],
+   "family_in_jurisdictions": [],
+   "claim_maps": [
+    {
+     "claim": 1,
+     "result": "unclear",
+     "elements": [
+      {
+       "text": "a cord of thermotropic liquid crystalline filaments comprising several strands",
+       "in_invention": "unclear",
+       "why": "element 4 unstated; moot — expired"
+      }
+     ]
+    }
+   ],
+   "result": "unclear",
+   "design_around": {
+    "element": "",
+    "essential": null,
+    "note": "moot: expired"
+   },
+   "licensing_path": {
+    "result": "unknown",
+    "evidence": "not required: expired",
+    "url": ""
+   },
+   "url": "https://patents.google.com/patent/US6599319"
+  }
+ ],
+ "case_blocked": "Biorez's composite-scaffold family (8 US + 16 ex-US by the owner's 2021 count, protection stated 'into 2040') now belongs to CONMED, which sells BioBrace into this surgery; only one member was opened, from a summary page, and CONMED has said nothing about licensing. Biorez's braided-scaffold family ('143, '437) reads on a resorbable braided ligament with distinct sections, and '437 claim 14 drops the non-degrading fiber; it runs to 2030. Zimmer Biomet holds two families whose claims could not be fully read, one active to about 2034 and described for use without a joint replacement. Georgia Tech's US 9,180,000 could not be opened. Applications filed since mid-2025 are unpublished.",
+ "verdict": "unknown",
+ "verdict_reason": "The genus is free — no in-force claim found covering a synthetic ACL ligament fixed to bone as such; both fail conditions cleared on the pages opened. Every live claim that could read turns on unstated elements 4 (material), 5 (structure), and 8 (permanent vs resorbable), and two strategic-held families could not be read. On the pages opened, a permanent single-polymer braided or woven cord with conventional fixation is absent at least one element of every in-force independent claim read; a resorbable sectioned scaffold or a spacer-textile composite moves into the Biorez/CONMED families.",
+ "park": {
+  "noted": false,
+  "re_trigger": "",
+  "check_date": ""
+ },
+ "routed_question": {
+  "question": "Settle elements 4 (material class), 5 (structure), 8 (permanent vs resorbable) and 7 (replacement vs augmentation); re-run.",
+  "to": "founder"
+ },
+ "risk_list": [
+  {
+   "number": "US8486143; US8758437 (Biorez/CONMED)",
+   "result": "unclear",
+   "why_risk_not_wall": "under seven years (2030, 2029); design-around on element 8 if not essential"
+  },
+  {
+   "number": "US11357613 + 8 siblings (Biorez/CONMED)",
+   "result": "unclear",
+   "why_risk_not_wall": "to 2040 by owner statement; design-around on element 5 if not essential; one member read from a summary page"
+  },
+  {
+   "number": "US9681940; US11376115; US10517714 (Biomet Sports Medicine)",
+   "result": "unclear",
+   "why_risk_not_wall": "narrow claims; status and term not read; 2006 chain"
+  },
+  {
+   "number": "US10265158; US11344403 (Biomet UK)",
+   "result": "unknown",
+   "why_risk_not_wall": "active, claims unread; term to about 2034 (computed)"
+  },
+  {
+   "number": "US9180000 (Georgia Tech)",
+   "result": "unknown",
+   "why_risk_not_wall": "page not reachable; university owner with TTO listing is evidence for a licensing path"
+  },
+  {
+   "number": "US11660374; US11311649; US11696972; US7905918",
+   "result": "unknown",
+   "why_risk_not_wall": "not opened; read only if element 4 is silk or metal"
+  }
+ ],
+ "for_the_founder": {
+  "confirm_or_override": [
+   "Element 3 (fixed to bone at both ends) inferred as essential; fixation method (element 9) treated as optional",
+   "Element 1 read as fully man-made, excluding autograft/allograft; a hybrid design changes elements 4 and 6"
+  ],
+  "settle_before_counsel": [
+   "element 4 material class",
+   "element 5 structure",
+   "element 8 permanent vs resorbable",
+   "element 7 replacement vs augmentation"
+  ]
+ },
+ "counsel_kit": {
+  "questions": [
+   {
+    "patent": "US11357613 and siblings (11058532, 11065102, 11096776, 11116622, 11622847, 11701217, 11712332, 11986384)",
+    "claim": 1,
+    "element": "two-layer spacer textile with internal matrix",
+    "question": "Does any member claim a braided or woven ligament body without the spacer structure and matrix? Which members run to 2040?"
+   },
+   {
+    "patent": "US8486143 / US8758437",
+    "claim": 1,
+    "element": "polymeric fibers degrading at 9–12 months",
+    "question": "If permanent polyester or UHMWPE, confirm neither reads; if partially resorbable, does '437 claim 14 read without a non-degrading fiber?"
+   },
+   {
+    "patent": "US10265158 / US11344403",
+    "claim": 0,
+    "element": "stand-alone ligament fixed to bone",
+    "question": "Do the independent claims cover a stand-alone ligament or only an assembly with a joint prosthesis; term from the 2014 PCT?"
+   },
+   {
+    "patent": "US9681940 / US10517714 / US11376115",
+    "claim": 1,
+    "element": "self-threaded adjustable loop; two-fiber braid",
+    "question": "Status and expiry of each member of the 2006 chain; any member past 2027; does '115 claim 1 require the loop or only the two-fiber braid?"
+   },
+   {
+    "patent": "US9180000",
+    "claim": 1,
+    "element": "prosthetic ACL with suspensory or aperture fixation",
+    "question": "Claim 1 and status; licensed exclusively or not; TTO terms?"
+   },
+   {
+    "patent": "US4187558; US4605414; US5004474; US5078745; US7700147",
+    "claim": 0,
+    "element": "genus",
+    "question": "Confirm all expired with no term extension."
+   }
+  ],
+  "ask_for": "One hour of claim reading against the element list, and a view on whether a formal FTO opinion is warranted — not the opinion. Stage: pre-company, pre-funding, screening.",
+  "possible_novelty": [
+   "Nothing recordable until elements 4–8 are specified"
+  ],
+  "pointers": [
+   "Do not disclose publicly before counsel has advised on filing.",
+   "Status and expiry on a patent page are estimates; counsel verifies on the register.",
+   "An application is not a patent, but it can become one; Biorez has said more are pending.",
+   "'Patent pending' on a competitor's product means an application exists; find it.",
+   "Family members in each jurisdiction can carry different claims.",
+   "Keep the element list current; a resorbable scaffold or spacer textile re-runs every map.",
+   "A crowded field is a risk; one in-force claim on an essential element with no way around or through it is a wall."
+  ],
+  "bring_back": [
+   {
+    "question": "Q1 Biorez composite family",
+    "status": "open",
+    "quote": ""
+   },
+   {
+    "question": "Q2 Biorez braided family",
+    "status": "open",
+    "quote": ""
+   },
+   {
+    "question": "Q3 Biomet UK",
+    "status": "open",
+    "quote": ""
+   },
+   {
+    "question": "Q4 Biomet Sports Medicine",
+    "status": "open",
+    "quote": ""
+   },
+   {
+    "question": "Q5 Georgia Tech",
+    "status": "open",
+    "quote": ""
+   },
+   {
+    "question": "Q6 expired genus families",
+    "status": "open",
+    "quote": ""
+   }
+  ]
+ },
+ "flags": [
+  {
+   "to": "step2-biology",
+   "flag": "The expired 1980s–90s synthetic ACL families are the graveyard for the biology search; cause of death not evaluated here"
+  },
+  {
+   "to": "step2-regulatory",
+   "flag": "BioBrace reached the US market under 510(k) K203267 as soft-tissue reinforcement; what route a stand-alone synthetic ACL replacement has is for the regulatory search"
+  },
+  {
+   "to": "gate4",
+   "flag": "Strategics holding live claims: CONMED (Biorez), Zimmer Biomet (two families); LARS listed under Movmedix; a Georgia Tech family"
+  },
+  {
+   "to": "gate8",
+   "flag": "BEAR and BioBrace represent a shift toward repair and augmentation rather than replacement"
+  }
+ ],
+ "research_log": {
+  "time_spent_min": 55,
+  "candidates_found": 31,
+  "pages_opened": 16,
+  "sources": [
+   {
+    "what": "US11547550 claim 1, status, expiry",
+    "url": "https://patents.google.com/patent/US11547550",
+    "label": "verified"
+   },
+   {
+    "what": "US7494506 claim 1",
+    "url": "https://uspto.report/patent/grant/7494506",
+    "label": "verified"
+   },
+   {
+    "what": "US7494506 status, expiry, family",
+    "url": "https://patents.google.com/patent/US7494506",
+    "label": "verified"
+   },
+   {
+    "what": "US6599319 claim 1, status",
+    "url": "https://patents.google.com/patent/US6599319",
+    "label": "verified"
+   },
+   {
+    "what": "US10786232 claims, status, expiry",
+    "url": "https://patents.google.com/patent/US10786232",
+    "label": "verified"
+   },
+   {
+    "what": "US8486143 claims 1/5/13/14, status, expiry",
+    "url": "https://patents.google.com/patent/US8486143",
+    "label": "verified"
+   },
+   {
+    "what": "US8758437 claims 1/14, status, expiry",
+    "url": "https://patents.google.com/patent/US8758437",
+    "label": "verified"
+   },
+   {
+    "what": "US10265158 bibliographic data; claims behind login",
+    "url": "https://eureka.patsnap.com/patent-US10265158B2",
+    "label": "unverified"
+   },
+   {
+    "what": "US11376115 claims 1/8/16, priority chain",
+    "url": "https://patents.justia.com/patent/11376115",
+    "label": "verified"
+   },
+   {
+    "what": "US9681940 claim 1, owner, priority chain",
+    "url": "https://patents.justia.com/patent/9681940",
+    "label": "verified"
+   },
+   {
+    "what": "US11357613 claim 1 as summarized by a third-party page",
+    "url": "https://mtec-sc.org/patents/US-11357613-B2",
+    "label": "unverified"
+   },
+   {
+    "what": "Laboureau (LARS) inventor page",
+    "url": "https://patents.justia.com/inventor/jacques-philippe-laboureau",
+    "label": "verified"
+   },
+   {
+    "what": "Georgia Tech TTO listing, IP status US9180000",
+    "url": "https://licensing.research.gatech.edu/print/pdf/node/3758",
+    "label": "verified"
+   },
+   {
+    "what": "Biorez release, Oct 2021: four patents, portfolio count, 'into 2040'",
+    "url": "https://www.prweb.com/releases/biorez_awarded_four_new_patents_related_to_its_proprietary_biobrace_technology/prweb18237592.htm",
+    "label": "verified"
+   },
+   {
+    "what": "CONMED completes acquisition of Biorez, Aug 2022",
+    "url": "https://www.businesswire.com/news/home/20220809006024/en/CONMED-Completes-Acquisition-of-Biorez-Inc.",
+    "label": "verified"
+   },
+   {
+    "what": "Soft Tissue Regeneration L-C Ligament",
+    "url": "https://hartfordbusiness.com/article/soft-tissues-l-c-ligament-wins-us-patent/",
+    "label": "verified"
+   },
+   {
+    "what": "Orthonika page (meniscus, not ligament)",
+    "url": "https://orthonika.com/node/5",
+    "label": "verified"
+   }
+  ],
+  "searches_with_no_result": [
+   "Orthonika ligament patents (owner search returned only a meniscus page)",
+   "in-force Xiros / Neoligaments US families",
+   "Corin as assignee (LARS families listed under Movmedix)",
+   "a reachable page for US9180000",
+   "machine-readable text for US11344403 office PDF"
+  ]
+ }
+}
